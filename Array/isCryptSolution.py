@@ -22,7 +22,7 @@ def isCryptSolution(crypt, solution):
 
     # checks for trailing zeroes
     for i in arr:
-        if i[0] == '0' and len(k)>1:
+        if i[0] == '0' and len(i)>1:
             return False
     
     return int(arr[0]) + int(arr[1]) == int(arr[2])
