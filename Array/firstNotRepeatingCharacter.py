@@ -14,4 +14,4 @@ def firstNotRepeatingCharacter(s):
 
 
 print firstNotRepeatingCharacter('abacabad')
-// returns c
+# returns c
